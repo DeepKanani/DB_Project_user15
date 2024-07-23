@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333; 
+}
+
+.container {
+    margin: auto; 
+    padding: 30px 15px;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 80px 0; 
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem; 
+}
+
+.jumbotron p {
+    font-size: 1.5rem; /* Larger font size for introduction */
+}
+
+/* About Me section */
+#about {
+    background-color: #fff; /* White background */
+    padding: 60px 0; /* Add vertical padding */
+}
+
+#about h2 {
+    margin-bottom: 30px; /* Add bottom margin to heading */
+}
+
+/* Portfolio section */
+#portfolio {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 60px 0; /* Add vertical padding */
+}
+
+.card {
+    margin-bottom: 30px; /* Add bottom margin to cards */
+}
+
+.card-img-top {
+    height: 200px; /* Set height for project images */
+    object-fit: cover; /* Ensure images cover entire area */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for project titles */
+}
+
+.card-text {
+    font-size: 1.2rem; /* Medium font size for project descriptions */
+}
+
+/* Contact section */
+#contact {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    padding: 60px 0; /* Add vertical padding */
+}
+
+#contact h2 {
+    margin-bottom: 30px; /* Add bottom margin to heading */
+}
+
+.form-control {
+    margin-bottom: 20px; /* Add bottom margin to form controls */
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Dark blue button */
+    border-color: #0056b3; /* Dark blue border */
+}
+
+.btn-primary:hover {
+    background-color: #004287; /* Darker blue on hover */
+    border-color: #004287; /* Darker blue border on hover */
+}
